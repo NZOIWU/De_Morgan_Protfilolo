@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De Morgan Port.</title>
+  <link rel="stylesheet" href="index-general.css">
+  <link rel="stylesheet" href="index-header.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="header-container">
+    <div class="left-header-container">
+      <div class="De-morgan-logo">
+        <p class="logo-title">De_Morgan</p>
+      </div>
+       <div class="toogle-opacity">De_Morgan Company Logo</div>
+    </div>
+    <div class="right-header-container">
+      <ul class="nav-link">
+        <li><a href="">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Portfiolo.html">Portfiolo</a></li>
+        <li><a class="contact" href="Contact-me.html">Contact Me</a></li>
+      </ul>
+      <div class="menu-icon">&#9776;</div>
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="Developer-info">
+      <div class="text-container">
+        <h3 class="header-1">Hi, I'm Morgan JR.</h3>
+      <h4 class="header-2">A <span class="web-dev">Web Developer.</span></h4>
+      <h5 class="header-3">I create beautiful, responsive websites that provide great user experiences..</h5>
+      </div>
+      <button class="btn-1" onclick="Hireme()">Hire Me</button>
+      <button class="btn-2" onclick="downloadCV()">Download CV</button>
+    </div>
+
+    <div class="thumbnail-content">
+      <img src="IMG-20260711-WA0062.jpg" alt="">
+    </div>
+  </div>
+
+
+
+</body>
+<script> 
+ const menuicon = document.querySelector(".menu-icon");
+  const navlink =document.querySelector(".nav-link");
+  menuicon.addEventListener("click", () =>{
+    navlink.classList.toggle("active");
+  })</script>
+</html>
+<script scr="index.js"></script>

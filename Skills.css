@@ -1,0 +1,42 @@
+.skill-icon{
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+.html{
+    color:#E34F26;
+}
+
+.css{
+    color:#1572B6;
+}
+
+.js{
+    color:#F7DF1E;
+}
+
+.git{
+    color:#F1502F;
+}
+
+.github{
+    color:#ffffff;
+}
+
+.responsive{
+    color:#38BDF8;
+}
+
+.skill-card{
+    width:300px;
+    background:rgba(255,255,255,.08);
+    padding:25px;
+    border-radius:15px;
+    transition:0.4s;
+    cursor:pointer;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.4);
+}

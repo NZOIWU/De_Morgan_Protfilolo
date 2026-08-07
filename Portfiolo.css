@@ -1,0 +1,125 @@
+    body {
+      background: rgb(0, 0, 0);
+      color: white;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 10px;
+      row-gap: 10px;
+
+    }
+
+    .first-thumbnail {
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      display: inline-block;
+    }
+
+    p {
+      font-size: 20px;
+      font-family: Arial sans-serif;
+      margin-left: 100px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+
+    .pj2 {
+      height: 237px;
+      vertical-align: top;
+    }
+
+    .pj4,
+    .pj3 {
+      height: 250px;
+      vertical-align: top;
+    }
+
+    /* phone */
+    @media(max-width:768px) {
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      img {
+        width: 380px;
+      }
+
+      .first-thumbnail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+/* Small Phone */
+       @media(max-width:480px) {
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      img {
+        width: 300px;
+      }
+
+      .first-thumbnail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    /* Tablet */
+    h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media(min-width:769px) and (max-width:1024px) {
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* Laptops */
+    @media(min-width:1024px) {
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }

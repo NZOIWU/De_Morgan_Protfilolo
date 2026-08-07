@@ -1,0 +1,19 @@
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color: white;
+  }
+  h1{
+    font-size: 20px;
+  }
+  @media(max-width:768px){
+    body{
+      background:black;
+    }
+    h1{
+      font-size: 17px;
+    }
+  }
