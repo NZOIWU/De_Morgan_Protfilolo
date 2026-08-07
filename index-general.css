@@ -177,12 +177,14 @@ body {
   }
 
   .thumbnail-content img {
-    width: 100%;
-    max-width: 550px;
-    /* Increase to 500px if you want it even larger */
+      width:520px;
     height: auto;
+    /* width: 100%;
+    max-width: 550px; */
+    /* Increase to 500px if you want it even larger */
+    /* height: auto;
     object-fit: cover;
-    display: block;
+    display: block; */
   }
 
   .Developer-info {
