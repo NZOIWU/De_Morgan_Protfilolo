@@ -79,6 +79,17 @@ body{
 .project-buttons a:hover{
     background:#5b21b6;
 }
+// This is for the calculation work out..
+
+    .click-cal-btn{
+                padding: 8px 19px;
+                border: none;
+                border-radius: 5px;
+                font-family: arial;
+                background-color: #1f2537;
+                color: white;
+                cursor: pointer;
+            }
 
 @media(max-width:768px){
 
