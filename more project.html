@@ -36,7 +36,9 @@
                 <!-- <a href="https://YOUR-CALCULATOR-LINK.vercel.app" target="_blank">Live Demo</a>
 
                 <a href="https://github.com/YOUR-USERNAME/calculator" target="_blank">GitHub</a> -->
-              <button class="click-cal-btn">Check</button>
+                <button class="click-cal-btn" onclick="
+                calPageFunction();
+                ">Check</button>
             </div>
         </div>
 
@@ -87,5 +89,11 @@
     </div>
 
 </section>
+  <script defer>
+      const btn =  document.querySelector('button');
+      btn.addEventListener('click', function(){
+          window.location.href = "./project-3-on-js/simple-calc.html";
+      })
+  </script>
 </body>
 </html>
